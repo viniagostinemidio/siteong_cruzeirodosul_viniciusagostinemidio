@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Projetos - Instituto Conecta Futuro</title>
+<link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="nav-link"> 
+        <h1>Instituto Conecta Futuro</h1>
+    </a>
+
+    <button class="menu-hamburguer" id="menu-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+<nav id="main-nav">
+    <ul>
+        <li><a href="index.html" class="nav-link">Início</a></li> 
+        
+        <li class="dropdown"> <a href="projetos.html" class="nav-link">Projetos</a> 
+            <ul class="dropdown-menu"> 
+                <li><a href="projetos.html" class="nav-link">Ver Projetos</a></li>
+                <li><a href="voluntariado.html" class="nav-link">Ser Voluntário</a></li>
+            </ul>
+        </li>
+        
+        <li><a href="cadastro.html" class="nav-link">Seja um Aluno</a></li>
+    </ul>
+</nav>
+
+    <button id="theme-toggle" aria-label="Ativar modo escuro">🌙</button>
+
+</header>
+
+<main id="main-content">
+    
+    <h1>Nossos Projetos e Como Ajudar</h1>
+
+    <section id="nossos-projetos">
+        <h2>Nossos Cursos Gratuitos</h2>
+        <p>
+            Acreditamos que o conhecimento é a chave. Nossos projetos focam 
+            em capacitação tecnológica gratuita para jovens:
+        </p>
+        
+        <article>
+            <h3>Curso de Desenvolvimento Web Full Stack</h3>
+            <p>
+                Um curso intensivo de 6 meses que ensina HTML, CSS, JavaScript, 
+                Node.js e React, preparando o aluno para o primeiro emprego como dev.
+            </p>
+        </article>
+
+        <article>
+            <h3>Inglês Instrumental para Tech</h3>
+            <p>
+                Aulas focadas em leitura, escrita e conversação para o 
+                ambiente de trabalho de tecnologia, aumentando a 
+                empregabilidade dos nossos alunos.
+            </p>
+        </article>
+    </section>
+
+    <section id="voluntariado">
+        <h2>Seja um Voluntário</h2>
+        <p>
+            Você é um profissional de tecnologia ou professor de inglês? 
+            Sua experiência pode mudar uma vida!
+        </p>
+        
+        <picture>
+            <source srcset="imagens/mentor-tecnologia.webp" type="image/webp">
+            <source srcset="imagens/mentor-tecnologia.jpg" type="image/jpeg">
+            <img src="imagens/mentor-tecnologia.jpg" alt="Um profissional experiente ensinando um jovem no computador.">
+        </picture>
+
+        <p>Procuramos mentores para:</p>
+        <ul>
+            <li>Dar palestras e workshops.</li>
+            <li>Revisar projetos (pull requests).</li>
+            <li>Oferecer mentoria de carreira.</li>
+        </ul>
+        <p>
+            Para ser voluntário, envie um e-mail para 
+            <a href="mailto:voluntarios@conecta.org">voluntarios@conecta.org</a>.
+        </p>
+    </section>
+
+    <section id="doacoes">
+        <h2>Faça uma Doação</h2>
+        <p>
+            Sua contribuição financeira é vital para mantermos nossos 
+            laboratórios, pagarmos nossas contas de internet e 
+            oferecermos lanches para os alunos.
+        </p>
+        
+        <picture>
+            <source srcset="imagens/icone-doar.webp" type="image/webp">
+            <source srcset="imagens/icone-doar.png" type="image/png">
+            <img src="imagens/icone-doar.png" alt="Ícone simbolizando uma doação.">
+        </picture>
+
+        <p>Você pode doar de qualquer valor através da nossa chave PIX:</p>
+        <strong>PIX (CNPJ): 99.999.999/0001-99</strong>
+    </section>
+
+</main>
+
+    <footer>
+        <p>&copy; 2025 Instituto Conecta Futuro. Todos os direitos reservados.</p>
+    </footer>
+
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>

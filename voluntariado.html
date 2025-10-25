@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Seja Voluntário - Instituto Conecta Futuro</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="nav-link"> 
+        <h1>Instituto Conecta Futuro</h1>
+    </a>
+
+    <button class="menu-hamburguer" id="menu-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html" class="nav-link">Início</a></li> 
+            
+            <li class="dropdown">
+                <a href="projetos.html" class="nav-link">Projetos</a>
+                
+                <ul class="dropdown-menu">
+                    <li><a href="projetos.html" class="nav-link">Ver Projetos</a></li>
+                    <li><a href="voluntariado.html" class="nav-link">Ser Voluntário</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="cadastro.html" class="nav-link">Seja um Aluno</a></li>
+        </ul>
+    </nav>
+
+    <button id="theme-toggle" aria-label="Ativar modo escuro">🌙</button>
+
+</header>
+
+<main id="main-content">
+
+    <section class="hero" id="hero-voluntariado">
+        <div class="hero-content">
+            <h1>Faça a Diferença Conosco</h1>
+            <p>Seu talento pode transformar o futuro de centenas de jovens. Junte-se à nossa equipe de voluntários e ajude a construir pontes para novas oportunidades.</p>
+            <a href="#oportunidades" class="btn">Ver Vagas Abertas</a>
+        </div>
+        <div class="hero-image">
+            <picture>
+                <source srcset="imagens/mentor-tecnologia.webp" type="image/webp">
+                <source srcset="imagens/mentor-tecnologia.jpg" type="image/jpeg">
+                <img src="imagens/mentor-tecnologia.jpg" alt="Um mentor ajudando um jovem aluno no computador.">
+            </picture>
+        </div>
+    </section>
+
+    <section id="oportunidades">
+        <h2>Portal de Oportunidades</h2>
+        <p>Estas são as nossas necessidades atuais. Encontre a que mais se encaixa no seu perfil!</p>
+
+        <div class="grid-container article-list">
+
+            <div class="card col-12 col-md-6 col-lg-4">
+                <h3>Mentor(a) de Front-End</h3>
+                <div class="tags-container">
+                    <span class="tag">Remoto</span>
+                    <span class="tag">5h/semana</span>
+                </div>
+                <p>Ajude nossos alunos em suas dúvidas técnicas, revise projetos (code reviews) e dê mentoria de carreira para quem está começando na área de desenvolvimento web.</p>
+                <a href="cadastro.html?vaga=mentor-frontend" class="btn">Quero Ajudar</a>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4">
+                <h3>Professor(a) de Inglês Técnico</h3>
+                <div class="tags-container">
+                    <span class="tag">Presencial (SP)</span>
+                    <span class="tag">Remoto</span>
+                    <span class="tag">3h/semana</span>
+                </div>
+                <p>Ministre aulas de conversação e leitura focadas no vocabulário do mercado de tecnologia, preparando os alunos para entrevistas e para o dia a dia de trabalho.</p>
+                <a href="cadastro.html?vaga=prof-ingles" class="btn">Quero Ajudar</a>
+            </div>
+
+            <div class="card col-12 col-md-6 col-lg-4">
+                <h3>Palestrante (Workshops)</h3>
+                <div class="tags-container">
+                    <span class="tag">Remoto</span>
+                    <span class="tag">Pontual</span>
+                </div>
+                <p>Tem um conhecimento específico para compartilhar? (Ex: DevOps, UX/UI, Soft Skills, Gestão de Projetos). Dê um workshop único para nossos alunos.</p>
+                <a href="cadastro.html?vaga=palestrante" class="btn">Quero Ajudar</a>
+            </div>
+        </div>
+    </section>
+
+<section id="faq-voluntariado">
+        <h2>Perguntas Frequentes</h2>
+        
+        <div class="grid-container">
+
+            <article class="faq-item card col-12 col-md-6 col-lg-4">
+                <h3>Preciso ser um expert para ser mentor?</h3>
+                <p>Não! Procuramos profissionais que já tenham experiência de mercado (pleno ou sênior), mas o mais importante é a vontade de ensinar e a paciência para guiar quem está começando.</p>
+            </article>
+
+            <article class="faq-item card col-12 col-md-6 col-lg-4">
+                <h3>Quanto tempo de dedicação é necessário?</h3>
+                <p>Varia de acordo com a vaga. Para mentoria contínua, pedimos cerca de 5 horas semanais. Para palestras, é um compromisso pontual de 2 a 3 horas no dia do evento.</p>
+            </article>
+
+            <article class="faq-item card col-12 col-md-6 col-lg-4">
+                <h3>O voluntariado é apenas para a área de TI?</h3>
+                <p>Não! Também precisamos de ajuda com gestão de redes sociais, captação de recursos, apoio administrativo e muito mais. Se você quer ajudar, entre em contato!</p>
+            </article>
+
+        </div> </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Instituto Conecta Futuro. Todos os direitos reservados.</p>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>
